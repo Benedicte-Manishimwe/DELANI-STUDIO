@@ -83,3 +83,23 @@ h3{
   padding:200px;
   color:white;
 }
+.name{
+  border:2px solid white;
+  background:transparent;
+  color:white;
+}
+.email{
+  border:2px solid white;
+  background:transparent;
+  color:white;
+}  
+.message{
+  border:2px solid white;
+  background:transparent;
+  color:white;
+} 
+#footer{
+  margin-top:0;
+  background-color: white;
+  text-align: center;
+}
