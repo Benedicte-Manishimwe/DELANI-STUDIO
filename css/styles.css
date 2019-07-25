@@ -9,11 +9,22 @@ body{
   text-align: center;
   color:white;
   height: auto;
-
+  padding:100px;
+}
+.header>p{
+  margin-bottom:10px; 
 }
 .content{
   margin:40px;
 }
 #about{
   text-align: center;
+}
+#service{
+  text-align:center;
+  background-image: url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/s_image.jpg");
+  color:white;
+  padding:30px;
+  background-size: cover;
+
 }
