@@ -3,6 +3,9 @@ body{
   margin:20px;
   background-color:aliceblue;
 }
+h3{
+  text-align:center;
+}
 .header{
   background-image:url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
   background-size:cover;
@@ -54,16 +57,29 @@ body{
 }
 /* clear float propertie after products div*/
 
-#products:after{
+/*#products:after{
   content:"";
   display:table;
   clear:both;
-}
+}*/
 #samples{
+  margin:40px;
+}
+
+#part-1{
   display: flex;
-  padding:10px;
+  justify-content: space-around;
+  float: left;
+  width:100%;
+}
+#part-2{
+  display:flex;
   justify-content: space-around;
 }
-#samples>img{
-  width:30%;
+
+.contact{
+  background-image:url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/c_image.jpg");
+  background-size:cover;
+  padding:200px;
+  color:white;
 }
