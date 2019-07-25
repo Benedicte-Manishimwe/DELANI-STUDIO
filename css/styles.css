@@ -4,15 +4,15 @@ body{
   background-color:aliceblue;
 }
 .header{
-  background-image:url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/c_image.jpg");
+  background-image:url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
   background-size:cover;
   text-align: center;
   color:white;
   height: auto;
-  padding:100px;
+  padding:180px;
 }
 .header>p{
-  margin-bottom:10px; 
+  margin:5px; 
 }
 .content{
   margin:40px;
@@ -27,4 +27,24 @@ body{
   padding:30px;
   background-size: cover;
 
+}
+/*  create three column that flaot each other.*/
+#products{
+  float:left;
+  padding:10px;
+}
+#products>.prod-1{
+  width:33%;
+}
+#products>.prod-2{
+  width:33%;
+}
+#products>.prod-3{
+  width:33%;
+}
+/* clear float propertie after products div*/
+#products:after{
+  content:"";
+  display:table;
+  clear:both;
 }
