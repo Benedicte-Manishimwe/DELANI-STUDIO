@@ -30,21 +30,40 @@ body{
 }
 /*  create three column that flaot each other.*/
 #products{
-  float:left;
-  padding:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around ;
+
+  
+}
+
+#products h3{
+  text-align: center;
 }
 #products>.prod-1{
+  float:left;
   width:33%;
 }
 #products>.prod-2{
+  float:left;
   width:33%;
 }
 #products>.prod-3{
+  float: left;
   width:33%;
 }
 /* clear float propertie after products div*/
+
 #products:after{
   content:"";
   display:table;
   clear:both;
+}
+#samples{
+  display: flex;
+  padding:10px;
+  justify-content: space-around;
+}
+#samples>img{
+  width:30%;
 }
