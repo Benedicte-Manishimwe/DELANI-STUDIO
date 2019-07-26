@@ -25,3 +25,12 @@ $(document).ready(function(){
     $("text-3").toggle();
   });
 });
+$(document).ready(function(){
+  $("work-4").click(function(){
+    $("work-4").hover(function(){
+      $("des-4").show();
+    });
+  });
+});
+
+
