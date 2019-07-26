@@ -2,10 +2,15 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script href="js/jQuery.js"></script>
+  <script href="js/scripts.js"></script>
   <title>Delani Studio project</title>
+ 
 
 </head>
 
@@ -52,23 +57,22 @@
               <h3>WHAT WE DO</h3>
               <div class="prod">
               <div id="prod-1" >
-                <img src="img/services/design_icon.png">
+                <img src="img/services/design_icon.png" id="toDo-1">
                   <h4>DESIGN</h4>
-                  <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
-                    additional content. This content is a little bit longer.</p>  --> 
+                   <p id="text-1">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p> 
               </div>
               <div id="prod-2" >
-                <img src="img/services/dev_icon.png" >
+                <img src="img/services/dev_icon.png" id="toDo-2" >
                   <h4>DEVELOPMENT</h4>
-                  <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>  -->
+                  <p id="text-2">This card has supporting text below as a natural lead-in to additional content.</p>  
               </div>
             
               <div id="prod-3">
-                <img src="img/services/product_icon.png">
+                <img src="img/services/product_icon.png" id="toDo-3" >
                   <h4>PRODUCT MANAGEMENT</h5>
-                    <!-- <p >This is a wider card with supporting text below as a natural lead-in to -->
-                      <!-- additional content. This card has even longer content than the first to show that equal height -->
-                      <!-- action.</p> -->
+                     <p id="text-3">This is a wider card with supporting text below as a natural lead-in to 
+                     additional content. This card has even longer content than the first to show that equal height action.</p>
               </div>
               </div>
             </div>
@@ -107,7 +111,7 @@
             </div>
 
       
-            <div class="contact">
+            <div id="contact">
             <form>
             <h3>CONTACT US</h3>
              <div class="row">
@@ -115,12 +119,12 @@
                 <input type="text" class="form-control" placeholder="Name...">
                </div>
                <div class="col">
-                <input type="text" class="form-control" placeholder="Email...">
+                <input type="email" class="form-control" placeholder="Email...">
                </div>
              </div>
-            <br><br><br>
-             <div class="form-group"></div>
-              <textarea class="form-control-lg" id="Textarea1" rows="10" cols="10"></textarea>
+            <br><br>
+             <div class="form-group">
+              <textarea class="form-control form-control-lg" id="Textarea1" row="15"placeholder="Your message here..."></textarea>
              </div>
              <button class="submit" type="submit" >Send Message</button>
             </form>  
