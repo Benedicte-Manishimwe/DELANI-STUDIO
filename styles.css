@@ -15,7 +15,7 @@
 .prod{
   display:flex;
 }
-#prod-1{
+#prod-1{  
   float:left;
   width:33%;
 }
