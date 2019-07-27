@@ -1,19 +1,19 @@
 
 .card-img-overlay{
-  color:white;
   height: auto;
-  padding:100px;
+  padding:90px;
   margin:0;
 }
 
-#service{
+.service{
   background-image: url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/s_image.jpg");
-  color:white;
   padding:30px;
   background-size: cover;
 }
 .prod{
   display:flex;
+  margin-top:10%;
+  margin-bottom: 10%;
 }
 #prod-1{  
   float:left;
@@ -55,22 +55,32 @@ input[text]{
 #text-1 ,#text-2, #text-3{
   display:none;
 }
-h5{
-  font-weight: bold;s
+#work-4{
+  position: relative;
+}
+#pres-4{
+ display:none; 
+  position:absolute;
+  font-weight:bold;
+  background-color:rgba(0, 0, 0, 0.4);
+  /* background:transparent; */
+  color:white;
+ 
 }
 
-/* .form-control{ */
+
+.form-control{
   border:2px solid white;
   background-color: rgb(112, 108, 108);
   color:white;
   font-weight: bold;
 }
-/* .email{ */
+.email{
   border:2px solid white;
   background:transparent;
   color:white;
 }  
-/* .message{ */
+.message{
   border:2px solid white;
   background:transparent;
   color:white;
