@@ -28,7 +28,7 @@ $(document).ready(function () {
 
   $("#work4").mouseover(function(){
     $("#pres-4").show();
-    // $("#work-4").addClass(".pres-4");
+    $("#work-4").addClass("#pres-4");
   });
   $("#work4").mouseleave(function(){
    $("#pres-4").hide();

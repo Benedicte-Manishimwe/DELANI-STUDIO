@@ -27,9 +27,22 @@
   float:left;
   width:33%;
 }
-#sapmles{
-  padding:20px;
-  margin:40px;
+#text-1 ,#text-2, #text-3{
+  display:none;
+}
+#sapmles img{
+  width:30%;
+}
+#work-4{
+  position: relative;
+}
+#pres-4{
+ display:none; 
+  position:absolute;
+  font-weight:bold;
+  background-color:rgba(0, 0, 0, 0.4);
+  /* background:transparent; */
+  color:white;
 }
 #contact{
   background-image:url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/c_image.jpg");
@@ -52,24 +65,11 @@ input[text]{
   background-color: #ffffff;
   opacity:0.6;
 }
-#text-1 ,#text-2, #text-3{
-  display:none;
-}
-#work-4{
-  position: relative;
-}
-#pres-4{
- display:none; 
-  position:absolute;
-  font-weight:bold;
-  background-color:rgba(0, 0, 0, 0.4);
-  /* background:transparent; */
-  color:white;
- 
-}
 
 
-.form-control{
+
+
+/* .form-control{
   border:2px solid white;
   background-color: rgb(112, 108, 108);
   color:white;
@@ -89,6 +89,6 @@ input[text]{
   margin-top:0;
   background-color: white;
   text-align: center;
-} 
+}  */
 
 
