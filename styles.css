@@ -58,7 +58,7 @@ margin:5%;
 }
 .contact{
   background-image:url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/c_image.jpg");
-  background-size: cover;
+  background-size:cover;
   padding:60px;
 
 }
@@ -95,7 +95,7 @@ textarea.form-control::placeholder{
   color:white;
   opacity: 1;
 }
-@media only screen and (max-width:480px){
+/* @media only screen and (max-width:480px){
   img{
  width:50%;
   };
@@ -104,4 +104,4 @@ textarea.form-control::placeholder{
   img{
     width:80%;
   };
-};
+}; */
