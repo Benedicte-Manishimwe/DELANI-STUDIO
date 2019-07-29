@@ -89,7 +89,7 @@ $(document).ready(function () {
     var input3=$("#textarea").val();
 
     if ((input1==="")||(input2==="") || (input3==="")){
-      alert("Please ,fill the blank spaces for names emails and messages !!");
+      alert("Please ,fill the blank spaces for name email and message !!");
     }
     else {
       alert(input1 + " , we have received your message. Thank you fro reaching out to us.");
