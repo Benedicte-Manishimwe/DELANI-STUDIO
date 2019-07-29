@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.body{
+  font-family: sans-serif;
+}
 
 .card-img-overlay{
   height: auto;
@@ -30,17 +34,14 @@
 #text-1 ,#text-2, #text-3{
   display:none;
 }
-/* .samples{
-margin:5%;
-} */
+/* to separate the projects in two divisions */
 #part-2{
   margin-top: 20px;
   margin-bottom:20px; 
 }
-
+/* make all project images relatives */
 #wk8,#wk7,#wk6,#wk5,#wk4,#wk3,#wk2,#wk1{
   position:relative;
-
 }
 .img-pres{
   display:none;
@@ -62,9 +63,10 @@ margin:5%;
   padding:60px;
 
 }
+/* the background of contact area must be visible eventhough it contains form */
   .form-control{
   border:1px solid white;
-  background-color:transparent;
+  background-color:transparent; 
  
 } 
 .form-control:hover{
@@ -82,6 +84,7 @@ margin:5%;
   color: blue;
   font-weight: bolder;
 }
+/* make placeholder in white color */
 input[type="text"].form-control::placeholder{
   color:white;
   opacity: 1;
@@ -95,13 +98,13 @@ textarea.form-control::placeholder{
   color:white;
   opacity: 1;
 }
-/* @media only screen and (max-width:480px){
-  img{
+@media only screen and (max-width:480px){
+  .samples img{
  width:50%;
   };
 };
 @media only screen and (min-width:600px){
-  img{
+  .samples img{
     width:80%;
   };
-}; */
+};
