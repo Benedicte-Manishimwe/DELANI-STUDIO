@@ -68,9 +68,20 @@ $(document).ready(function () {
   $("#wk3").mouseleave(function(){
     $(".pres3").hide();
   });
-
-  
-
+  $("#wk2").mouseover(function(){
+    $(".pres2").css("background-color","rgba(255,255,255,0.4");
+    $(".pres2").fadeIn();
+  });
+  $("#wk2").mouseleave(function(){
+    $(".pres2").hide();
+  });
+  $("#wk1").mouseover(function(){
+    $(".pres1").css("background-color","rgba(255,255,255,0.4");
+    $(".pres1").fadeIn();
+  });
+  $("#wk1").mouseleave(function(){
+    $(".pres1").hide();
+  });
   
   $("#valid").click(function () {
     var input1=$("#names").val();
