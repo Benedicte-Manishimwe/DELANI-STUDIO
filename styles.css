@@ -30,15 +30,22 @@
 #text-1 ,#text-2, #text-3{
   display:none;
 }
+/* .samples{
+margin:5%;
+} */
+#part-2{
+  margin-top: 20px;
+  margin-bottom:20px; 
+}
 
 #wk8,#wk7,#wk6,#wk5,#wk4,#wk3,#wk2,#wk1{
   position:relative;
+
 }
 .img-pres{
   display:none;
   /* background-color:rgba(255,255,255,0.4);this   background must displayed uisng Jquery*/
   color:red;
-  border:3px white solid;
   margin: 0 auto;
   z-index:999 ;
   top:0;
@@ -49,42 +56,51 @@
   position:absolute;
 
 }
+.contact{
+  background-image:url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/c_image.jpg");
+  background-size: cover;
+  padding:60px;
 
-
- .form-control{
-  border:2px solid white;
-  background-color: rgb(112, 108, 108);
-  color:white;
-  font-weight: bold;
 }
-.email{
-  border:2px solid white;
-  background:transparent;
-  color:white;
-}  
-.message{
-  border:2px solid white;
-  background:transparent;
-  color:white;
-} 
-#footer{
-  margin-top:0;
-  background-color: white;
-  text-align: center;
-}  
-input[text]{
-  border:2px solid white;
-  background:transparent;
-  opacity:0.6;
-}
-input[email]{
-  border:2px solid white;
-  background-color: #ffffff;
-  opacity:0.6;
-}
-input[text]{
-  border:2px solid white;
-  background-color: #ffffff;
-  opacity:0.6;
-}
+  .form-control{
+  border:1px solid white;
+  background-color:transparent;
  
+} 
+.form-control:hover{
+  background-color: grey;
+  color:black;
+}
+.contact .group-form{
+  margin-top: 50px;
+  width:400px;
+}
+#name,#emails{
+  width:400px
+}
+#valid{
+  background: transparent;
+  font-weight: bolder;
+}
+input[type="name"]::-webkit-input-placeholder{
+  color:white;
+  opacity: 1;
+}
+input[type="name"]:-moz-placeholder{
+  color:white;
+  opacity: 1;
+}
+input[type="name"]::placeholder{
+  color:white;
+  opacity: 1;
+}
+@media only screen and (max-width:780px){
+  img{
+ width:50%;
+  };
+};
+@media only screen and (min-width:800px){
+  img{
+    width:90%;
+  };
+};
