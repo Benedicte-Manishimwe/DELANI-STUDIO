@@ -10,7 +10,7 @@
 }
 
 .service{
-  background-image: url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/s_image.jpg");
+  background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
   padding:30px;
   background-size: cover;
 }
