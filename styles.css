@@ -58,9 +58,9 @@
 
 }
 .contact{
-  background-image:url("/home/wecode/Documents/Moringa-school-projects/Delani-Studio/img/background/c_image.jpg");
+  background-image:url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
   background-size:cover;
-  padding:60px;
+  padding:65px;
 
 }
 /* the background of contact area must be visible eventhough it contains form */
@@ -84,7 +84,7 @@
   color: blue;
   font-weight: bolder;
 }
-/* make placeholder in white color */
+/* make placeholder in white */
 input[type="text"].form-control::placeholder{
   color:white;
   opacity: 1;
