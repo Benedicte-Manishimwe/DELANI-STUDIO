@@ -57,7 +57,19 @@ $(document).ready(function () {
   $("#wk4").mouseover(function(){
     $(".pres4").css("background-color","rgba(255,255,255,0.4");
     $(".pres4").fadeIn();
-  })
+  });
+  $("#wk4").mouseleave(function(){
+    $(".pres4").hide();
+  });
+  $("#wk3").mouseover(function(){
+    $(".pres3").css("background-color","rgba(255,255,255,0.4");
+    $(".pres3").fadeIn();
+  });
+  $("#wk3").mouseleave(function(){
+    $(".pres3").hide();
+  });
+
+  
 
   
   $("#valid").click(function () {

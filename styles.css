@@ -31,22 +31,6 @@
   display:none;
 }
 
-
-input[text]{
-  border:2px solid white;
-  background:transparent;
-  opacity:0.6;
-}
-input[email]{
-  border:2px solid white;
-  background-color: #ffffff;
-  opacity:0.6;
-}
-input[text]{
-  border:2px solid white;
-  background-color: #ffffff;
-  opacity:0.6;
-}
 #wk8,#wk7,#wk6,#wk5,#wk4,#wk3,#wk2,#wk1{
   position:relative;
 }
@@ -88,5 +72,19 @@ input[text]{
   background-color: white;
   text-align: center;
 }  
-
+input[text]{
+  border:2px solid white;
+  background:transparent;
+  opacity:0.6;
+}
+input[email]{
+  border:2px solid white;
+  background-color: #ffffff;
+  opacity:0.6;
+}
+input[text]{
+  border:2px solid white;
+  background-color: #ffffff;
+  opacity:0.6;
+}
  
