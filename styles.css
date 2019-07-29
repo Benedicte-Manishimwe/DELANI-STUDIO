@@ -76,21 +76,22 @@ margin:5%;
   width:400px;
 }
 #name,#emails{
-  width:400px
+  width:400px;
 }
 #valid{
   background: transparent;
   font-weight: bolder;
 }
-input[type="name"]::-webkit-input-placeholder{
+input[type="text"].form-control::placeholder{
   color:white;
   opacity: 1;
 }
-input[type="name"]:-moz-placeholder{
+input[type="email"].form-control::placeholder{
   color:white;
   opacity: 1;
 }
-input[type="name"]::placeholder{
+
+textarea.form-control::placeholder{
   color:white;
   opacity: 1;
 }
@@ -101,6 +102,6 @@ input[type="name"]::placeholder{
 };
 @media only screen and (min-width:800px){
   img{
-    width:90%;
+    width:80%;
   };
 };
