@@ -8,7 +8,7 @@ The delani studio project is project enables the own to publish his work and ser
 * cd delani-studio.
 * code .
 * atom .(for mac)
-the project is build wiith html ,css and Jquery langauges . the data entred are saved to other server so someone of the save could manipulate them. 
+the project is build wiith html ,css and Jquery langauges . in Jquery effects had been emphasized especialy the hover ones, the data entred are saved to other server so someone of the save could manipulate them. 
 ## Support and contact details
 for more information, don't hesitate to contact me on (+250)788291717 or email us at:benoite251@gmail.com
 ### License
